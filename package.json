@@ -1,0 +1,23 @@
+{
+  "name": "@habib-ullah/cli-number-guessing",
+  "version": "2.0.5",
+  "description": "I am about to create a cli based number guessing game",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "author": "broHabib",
+  "license": "MIT",
+  "dependencies": {
+    "@habib-ullah/cli-number-guessing": "^1.0.0",
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
